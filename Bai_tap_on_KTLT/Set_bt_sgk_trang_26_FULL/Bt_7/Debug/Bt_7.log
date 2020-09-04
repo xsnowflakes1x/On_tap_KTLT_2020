@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Bt_7.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source7.cpp
+  Bt_7.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Bai_tap_on_KTLT\Set_bt_sgk_trang_26\Debug\Bt_7_coi_ky_Sap_xep.exe
+  Bt_7.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Bai_tap_on_KTLT\Set_bt_sgk_trang_26\Debug\Bt_7_coi_ky_Sap_xep.pdb (Partial PDB)
