@@ -1,0 +1,5 @@
+﻿  Source3.cpp
+d:\web developer_important\ôn tập 2020\source-code\bai_tap_on_ktlt\set_bt_sgk_trang_37_full\bt_3\source3.cpp(22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\web developer_important\ôn tập 2020\source-code\bai_tap_on_ktlt\set_bt_sgk_trang_37_full\bt_3\source3.cpp(27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Bt_3.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Bai_tap_on_KTLT\Set_bt_sgk_trang_37_FULL\Debug\Bt_3.exe
+  Bt_3.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Bai_tap_on_KTLT\Set_bt_sgk_trang_37_FULL\Debug\Bt_3.pdb (Partial PDB)

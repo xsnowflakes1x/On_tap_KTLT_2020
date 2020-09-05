@@ -1,0 +1,8 @@
+﻿  Source4.cpp
+d:\web developer_important\ôn tập 2020\source-code\bai_tap_on_ktlt\set_bt_sgk_trang_37_full\bt_4\source4.cpp(22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\web developer_important\ôn tập 2020\source-code\bai_tap_on_ktlt\set_bt_sgk_trang_37_full\bt_4\source4.cpp(26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\web developer_important\ôn tập 2020\source-code\bai_tap_on_ktlt\set_bt_sgk_trang_37_full\bt_4\source4.cpp(32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\web developer_important\ôn tập 2020\source-code\bai_tap_on_ktlt\set_bt_sgk_trang_37_full\bt_4\source4.cpp(33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\web developer_important\ôn tập 2020\source-code\bai_tap_on_ktlt\set_bt_sgk_trang_37_full\bt_4\source4.cpp(16): warning C4101: 'kq': unreferenced local variable
+  Bt_4.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Bai_tap_on_KTLT\Set_bt_sgk_trang_37_FULL\Debug\Bt_4.exe
+  Bt_4.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Bai_tap_on_KTLT\Set_bt_sgk_trang_37_FULL\Debug\Bt_4.pdb (Partial PDB)
