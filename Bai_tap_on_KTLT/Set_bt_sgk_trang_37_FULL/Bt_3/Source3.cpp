@@ -6,13 +6,13 @@ Viết chương trình tính giá trị của hàm số:
 f(x) = 2x^2 + 5x + 9 khi x >= 5
 f(x) = -2x^2 + 4x - 9 khi x < 5
 */
-void TinhTienDienHangThang();
+void ChonDeTinhDienTich();
 void main()
 {
-	TinhTienDienHangThang();
+	ChonDeTinhDienTich();
 	_getch();
 }
-void TinhTienDienHangThang()
+void ChonDeTinhDienTich()
 {
 	int x, kq;
 	cout << "Nhap x: ";

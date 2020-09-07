@@ -22,13 +22,13 @@ Nhập chỉ số cũ là 100, chỉ số mới là 270 thì số điên tiêu t
 
 Áp dụng thử toán tử 3 ngôi - toán tử điều kiện. 
 */
-void TinhTienDienHangThang();
+void ChonDeTinhDienTich();
 void main()
 {
-	TinhTienDienHangThang();
+	ChonDeTinhDienTich();
 	_getch();
 }
-void TinhTienDienHangThang()
+void ChonDeTinhDienTich()
 {
 
 	int chi_so_cu, chi_so_moi, so_dien_tieu_thu, TongTienDien, he_so, chi_so_da_dung_dau_tien, so_dien_con_lai;

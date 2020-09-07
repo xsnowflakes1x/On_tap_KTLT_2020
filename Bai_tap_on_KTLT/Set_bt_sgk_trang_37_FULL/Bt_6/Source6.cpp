@@ -8,13 +8,13 @@ Ví dụ:
 - Nhập vào tháng 3 năm 2013 thì kết quả là: tháng có 31 ngày
 - Nhập vào tháng 2 năm 2000 thì kết quả là: tháng có 29 ngày
 */
-void TinhTienDienHangThang();
+void ChonDeTinhDienTich();
 void main()
 {
-	TinhTienDienHangThang();
+	ChonDeTinhDienTich();
 	_getch();
 }
-void TinhTienDienHangThang()
+void ChonDeTinhDienTich()
 {
 	int m, y;
 	cout << "Nhap thang: ";
