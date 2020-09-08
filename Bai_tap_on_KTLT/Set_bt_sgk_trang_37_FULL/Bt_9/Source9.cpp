@@ -9,19 +9,19 @@ ví dụ:
 */
 // Dùng if - else thì đừng thiếu break !!!!
 //Lưu ý không khởi tạo giá trị hậu quả là vòng lặp vô hạn!!
-void ChonDeTinhDienTich();
+void KiemTraNgayThangNam();
 void main()
 {
 	char x;
 	do
 	{
-		ChonDeTinhDienTich();
+		KiemTraNgayThangNam();
 		cout << "\nNhap 00 de thoat!";
 		cin >> x;
 	} while (x != 00);
 	_getch();
 }
-void ChonDeTinhDienTich()
+void KiemTraNgayThangNam()
 {
 	int d, m, y;
 	cout << "Chuong trinh bat dau:"<<endl;

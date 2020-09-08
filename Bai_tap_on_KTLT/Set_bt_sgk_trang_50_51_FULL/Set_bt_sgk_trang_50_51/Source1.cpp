@@ -11,7 +11,7 @@ void main()
 	do {
 		cout << "Chuong trinh bat dau\n";
 		XuatBangCuuChuong();
-		cout << "\nNhap x: ";
+		cout << "\nNhap 0 de thoat: ";
 		cin >> x;
 	} while (x!=0);
 	_getch();

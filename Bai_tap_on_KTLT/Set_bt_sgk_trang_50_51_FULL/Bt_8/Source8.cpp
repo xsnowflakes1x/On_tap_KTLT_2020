@@ -20,7 +20,7 @@ void main()
 	int x;
 	do {
 		XSKT();
-		cout << "\nNhap x: ";
+		cout << "\nNhap 0 de thoat: ";
 		cin >> x;
 		system("cls");
 	} while (x != 0);

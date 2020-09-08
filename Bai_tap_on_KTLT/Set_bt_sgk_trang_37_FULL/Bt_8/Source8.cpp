@@ -5,19 +5,19 @@ using namespace std;
 Nhập vào một số nguyên dương tối đa 9 chữ số. Hỏi số đó có bao nhiêu chữ số?
 */
 // không khởi tạo giá trị hậu quả là vòng lặp vô hạn??
-void ChonDeTinhDienTich();
+void XuatSoCoBaoNhieuChuSo();
 void main()
 {
 	int x;
 	do 
 	{
-		ChonDeTinhDienTich();
+		XuatSoCoBaoNhieuChuSo();
 		cout << "Nhap 0 de thoat!";
 		cin >> x;
 	} while (x != 0);
 	_getch();
 }
-void ChonDeTinhDienTich()
+void XuatSoCoBaoNhieuChuSo()
 {
 	unsigned long so_nd; //so_nguyen_duong 
 	cout << "So nguyen duong: ";

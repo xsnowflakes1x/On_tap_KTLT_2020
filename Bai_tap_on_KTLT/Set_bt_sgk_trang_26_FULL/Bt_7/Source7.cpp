@@ -45,9 +45,6 @@ void SapXep()
 
 	mid1 = (max != a && min != a) ? a : ((max != b && min != b) ? b : ((max != c && min != c) ? c : d));
 	mid2 = (max != a && min != a && mid1 != a) ? a : ((max != b && min != b && mid1 != b) ? b : ((max != c && min != c && mid1 != c) ? c : d));
-	int mid_lon_nhat, mid_nho_nhat;					//dư
-	mid_lon_nhat = (mid1 > mid2) ? mid1 : mid2;		// dư
-	mid_nho_nhat = (mid2 < mid1) ? mid2 : mid1;		//dư
- 	cout << "KQ: " << max << ", "<< mid_lon_nhat << ", "<< mid_nho_nhat << ", " << min;
+
 	cout << "KQ: " << max << ", " << mid1<<", " << mid2<< ", " << min;
 }

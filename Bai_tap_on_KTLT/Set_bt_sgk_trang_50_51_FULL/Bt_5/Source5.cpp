@@ -19,7 +19,7 @@ void main()
 		cin >> b;
 
 		cout << "\nBoi chung nho nhat cua " << a << " va " << b << " la: "; BoiChungNhoNhat(a, b);
-		cout << "\nNhap x: ";
+		cout << "\nNhap 0 de thoat: ";
 		cin >> x;
 	} while (x != 0);
 	_getch();

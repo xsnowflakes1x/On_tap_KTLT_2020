@@ -18,7 +18,7 @@ void main()
 		cin >> b;
 
 		cout << "\nUoc chung lon nhat cua " << a << " va "<<b<<" la: "; UocChungLonNhat(a,b);
-		cout << "\nNhap x: ";
+		cout << "\nNhap 0 de thoat: ";
 		cin >> x;
 	} while (x != 0);
 	_getch();

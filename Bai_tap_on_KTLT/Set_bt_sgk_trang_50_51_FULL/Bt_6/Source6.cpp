@@ -17,7 +17,7 @@ void main()
 		cout << "Nhap vao so nguyen thu n:";
 		cin >> n;
 		cout << "\nSo chia het cho 2 va 3 cua " << "tu 1 den " << n << " la: "; SoChiaHetCho2Va3(n);
-		cout << "\nNhap x: ";
+		cout << "\nNhap 0 de thoat: ";
 		cin >> x;
 	} while (x != 0);
 	_getch();

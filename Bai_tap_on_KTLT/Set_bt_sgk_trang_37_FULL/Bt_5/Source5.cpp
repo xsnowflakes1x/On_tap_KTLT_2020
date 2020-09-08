@@ -7,13 +7,13 @@ Nếu cả a và b đều là số chẵn thì xuất câu: "a va b la 2 so chan
 Nếu trong 2 số a và b chỉ có một số chẵn thì xuất ra câu: "chi co mot so chan"
 Nếu trong 2 số a và b không có số chẵn nào thì xuất ra câu: "a, b la hai so le"
 */
-void ChonDeTinhDienTich();
+void XuatSoChanLe();
 void main()
 {
-	ChonDeTinhDienTich();
+	XuatSoChanLe();
 	_getch();
 }
-void ChonDeTinhDienTich()
+void XuatSoChanLe()
 {
 	int x, y;
 	cout << "Nhap x: ";

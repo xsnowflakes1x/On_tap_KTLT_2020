@@ -5,19 +5,19 @@ using namespace std;
 Nhập 3 số nguyên dương. Xét xem 3 số vừa nhập có phải là số đo 3 cạnh của tam giác hay không? 
 Nếu đúng, thì tam giác gì (đều, vuông cân, cân, vuông, thường)
 */
-void ChonDeTinhDienTich();
+void XetTamGiac();
 void main()
 {
 	char x;
 	do
 	{
-		ChonDeTinhDienTich();
+		XetTamGiac();
 		cout << "\nNhap 00 de thoat!";
 		cin >> x;
 	} while (x != 00);
 	_getch();
 }
-void ChonDeTinhDienTich()
+void XetTamGiac()
 {
 	int a, b, c;
 	cout << "Chuong trinh bat dau:" << endl;
