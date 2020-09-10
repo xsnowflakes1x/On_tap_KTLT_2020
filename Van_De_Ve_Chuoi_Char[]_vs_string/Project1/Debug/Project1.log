@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Bt_1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source1.cpp
+d:\web developer_important\ôn tập 2020\source-code\bai_tap_on_ktlt\set_bt_sgk_trang_65_ham\project1\source1.cpp(33): warning C4018: '<': signed/unsigned mismatch
+  Project1.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Bai_tap_on_KTLT\Set_bt_sgk_trang_65_Ham\Debug\char[]_vs_string.exe
+  Project1.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Bai_tap_on_KTLT\Set_bt_sgk_trang_65_Ham\Debug\char[]_vs_string.pdb (Partial PDB)

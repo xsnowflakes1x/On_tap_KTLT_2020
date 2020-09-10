@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (KTLT_2020.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Mang_1_chieu.cpp
+  KTLT_2020.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\KTLT_2020\Debug\Mang_1_Chieu.exe
+  KTLT_2020.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\KTLT_2020\Debug\Mang_1_Chieu.pdb (Partial PDB)

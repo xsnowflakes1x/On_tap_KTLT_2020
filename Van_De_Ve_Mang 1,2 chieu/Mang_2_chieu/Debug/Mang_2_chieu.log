@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Mang_2_chieu.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Mang_2_chieu.cpp
+d:\web developer_important\ôn tập 2020\source-code\ktlt_2020\mang_2_chieu\mang_2_chieu.cpp(8): warning C4101: 'sl': unreferenced local variable
+  Mang_2_chieu.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\KTLT_2020\Debug\Luu_y_gia_tri_bien_mang_1_va_2_chieu.exe
+  Mang_2_chieu.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\KTLT_2020\Debug\Luu_y_gia_tri_bien_mang_1_va_2_chieu.pdb (Partial PDB)
