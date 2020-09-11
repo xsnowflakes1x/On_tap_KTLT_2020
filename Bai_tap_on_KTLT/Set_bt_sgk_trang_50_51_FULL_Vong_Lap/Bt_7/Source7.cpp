@@ -15,7 +15,7 @@ void main()
 		int n;
 		cout << "Nhap vao so nguyen thu n:";
 		cin >> n;
-		cout << "\nSo chia het cho 2 va 3 cua " << "tu 1 den " << n << " la: "; TimNSoNguyenToDauTien(n);
+		cout << "\n " << n<<" So nguyen to dau tien la: "; TimNSoNguyenToDauTien(n);
 		cout << "\nNhap 0 de thoat: ";
 		cin >> x;
 	} while (x != 0);
