@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ThuatToanSapXep.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  InterChangeSort.cpp
+  ThuatToanSapXep.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Cau_Truc_Du_Lieu_&_Giai_Thuat\CauTrucDuLieuVaThuatToan\Debug\SapXep_InterChangeSort.exe
+  ThuatToanSapXep.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Cau_Truc_Du_Lieu_&_Giai_Thuat\CauTrucDuLieuVaThuatToan\Debug\SapXep_InterChangeSort.pdb (Partial PDB)
