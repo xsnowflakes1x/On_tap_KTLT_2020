@@ -27,8 +27,10 @@ void main()
 	int *pta;    
 	int **ptb;	 
 	int ***ptc;
+	int *p_cap1;
 
 	pta = &a;    //pta có địa chỉ của a pta -> địa chỉ a
+	p_cap1 = pta; // 2 con trỏ cấp một gán cho nhau KHÔNG CÓ dấu "&"
 	ptb = &pta; // ptb có địa chỉ của pta pt
 	ptc = &ptb; // ptc có ptb
 

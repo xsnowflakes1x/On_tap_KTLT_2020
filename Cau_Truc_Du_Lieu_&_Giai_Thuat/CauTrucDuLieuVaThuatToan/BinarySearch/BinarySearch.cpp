@@ -46,24 +46,24 @@ void XuatMang(int *a, int &n)
 		cout << a[i] << " ";
 }
 
-int BinarySearch(int *a, int n) //NOTE: Thuật toán này yêu cầu bắt buộc là đã phải sắp xếp theo thư tự thì mới thực hiện được! 
-{
-	int x;
-	cout << "Thuat toan tim kiem BinarySearch: ";
-	int left = 0, right = n - 1;
-	cout << "nhap x: ";
-	cin >> x;
-	do {
-		int mid = (left + right) / 2;
-		if (a[mid] == x)
-			return mid;
-		else if (a[mid] > x)
-			right = mid - 1;
-		else 
-			left = mid + 1;
-	} while (left <= right); // => DẤU "<=" bắt buộc phải có dấu "="  
-	return -1;       // 1 trong 2 cái return này chắc chắn 1 cái được sử dụng nếu cái này dc sử dùng thì cái còn lại KHÔNG DÙNG!!
-}
+//int BinarySearch(int *a, int n) //NOTE: Thuật toán này yêu cầu bắt buộc là đã phải sắp xếp theo thư tự thì mới thực hiện được! 
+//{
+//	int x;
+//	cout << "Thuat toan tim kiem BinarySearch: ";
+//	int left = 0, right = n - 1;
+//	cout << "nhap x: ";
+//	cin >> x;
+//	do {
+//		int mid = (left + right) / 2;
+//		if (a[mid] == x)
+//			return mid;
+//		else if (a[mid] > x)
+//			right = mid - 1;
+//		else 
+//			left = mid + 1;
+//	} while (left <= right); // => DẤU "<=" bắt buộc phải có dấu "="  
+//	return -1;       // 1 trong 2 cái return này chắc chắn 1 cái được sử dụng nếu cái này dc sử dùng thì cái còn lại KHÔNG DÙNG!!
+//}
 //void swap(int &a, int &b)
 //{
 //	int temp;

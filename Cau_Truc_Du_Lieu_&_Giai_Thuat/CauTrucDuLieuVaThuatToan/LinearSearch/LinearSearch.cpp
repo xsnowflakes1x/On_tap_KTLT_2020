@@ -46,17 +46,17 @@ void XuatMang(int *a, int &n)
 	for (int i = 0; i < n; i++)
 		cout << a[i] << " ";
 }
-
-int LinearSearch(int *a, int n) // sắp xếp tăng dần
-{	
-	int x;
-	cout << endl<< "Tim kiem LinearSearch => ";
-	cout << "nhap x: ";
-	cin >>x;
-	for (int i = 0; i < n; i++)
-		if (a[i] == x)
-			return 1;
-	return -1;
+//
+//int LinearSearch(int *a, int n) // sắp xếp tăng dần
+//{	
+//	int x;
+//	cout << endl<< "Tim kiem LinearSearch => ";
+//	cout << "nhap x: ";
+//	cin >>x;
+//	for (int i = 0; i < n; i++)
+//		if (a[i] == x)
+//			return 1;
+//	return -1;
 }
 /*Tim kiem LinearSearch2 - co linh canh sắp xếp tăng dần 
 - Thuật toán này cải thiện: giảm được số lần so sánh!

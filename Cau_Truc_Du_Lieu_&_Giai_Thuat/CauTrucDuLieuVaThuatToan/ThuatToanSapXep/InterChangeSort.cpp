@@ -36,13 +36,13 @@ void XuatMang(int *a, int &n)
 		cout << a[i] << " ";
 }
 
-void InterChangeSort(int *a, int n) // Thuật toán đổi chỗ trực tiếp!
-{
-	for (int i = 0; i < n-1; i++) // n - 1 mà ghi n ???? //lun nhớ for đầu chỉ chạy tới n-1 ko chạy đến phần tử cuối cùng
-		for (int j = i+1; j < n; j++) // j++ mà ghi i++ ???
-			if (a[i] > a[j])
-				swap(a[i], a[j]);
-}
+//void InterChangeSort(int *a, int n) // Thuật toán đổi chỗ trực tiếp!
+//{
+//	for (int i = 0; i < n-1; i++) // n - 1 mà ghi n ???? //lun nhớ for đầu chỉ chạy tới n-1 ko chạy đến phần tử cuối cùng
+//		for (int j = i+1; j < n; j++) // j++ mà ghi i++ ???
+//			if (a[i] > a[j])
+//				swap(a[i], a[j]);
+//}
 void swap(int &a, int &b)
 {
 	int temp;

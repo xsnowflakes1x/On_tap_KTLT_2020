@@ -53,7 +53,7 @@ void main()
 	//void(*tinh)(int &a, int &b);  // bỏ dòng này
 	//tinh = &Hieu; // bỏ dòng này
 	tinh t1,t2; // khai báo biến t1, t2 để sử dụng
-	t1 = &Hieu;// GÁN ĐỊA CHỈ HÀM HIỆU CHO T1
+	t1 = Hieu;// GÁN ĐỊA CHỈ HÀM HIỆU CHO T1 (có 2 cách gán)
 	t2 = &Tong;
 	int c = 5, d = 6, T = 0;// khai báo và khởi tạo giá trị
 	cout << "\n Ket qua Hieu: "; t1(d, c); /*(*tinh)(c, d);*/ //bỏ đoạn này
