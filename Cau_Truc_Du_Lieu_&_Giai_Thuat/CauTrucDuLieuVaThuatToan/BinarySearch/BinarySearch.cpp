@@ -3,7 +3,7 @@
 using namespace std;
 #define MAX 10
 //void NhapMang(int *a, int &n);
-//int BinarySearch(int *a, int &n);
+
 int BinarySearch(int *a, int n);
 void XuatMang(int *a, int &n);
 void main()
@@ -64,10 +64,20 @@ void XuatMang(int *a, int &n)
 //	} while (left <= right); // => DẤU "<=" bắt buộc phải có dấu "="  
 //	return -1;       // 1 trong 2 cái return này chắc chắn 1 cái được sử dụng nếu cái này dc sử dùng thì cái còn lại KHÔNG DÙNG!!
 //}
-//void swap(int &a, int &b)
-//{
-//	int temp;
-//	temp = a; 
-//	a = b;
-//	b = temp;
-//}
+
+int BinarySearch(int *a, int n)
+{
+	cout << "Nhap x: ";
+	int x; cin >> x;
+	int left = 0, right = n - 1;
+	do
+	{
+		int mid = (left + right) / 2;
+		if (a[mid] == x)
+			return mid;
+		else if (a[mid] > x)
+			right = mid - 1;
+		else left = mid + 1;
+	}while (left <= right);
+	return -1;
+}

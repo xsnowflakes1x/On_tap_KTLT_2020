@@ -52,5 +52,37 @@ void main()
 	***ptc = *(&b);
 	cout << ***ptc << endl;;
 	_getch();
+}
+//Trò chơi tự tạo :))
+//int *Xuat();
+//void main()
+//{
+//	int *kq;
+//	kq = Xuat();
+//	cout << *kq;
+//	_getch();
+//}
+//int *Xuat()
+//{
+//	int *x;
+//	int a = 7;
+//	x = &a;
+//	*x = *x * 7;
+//	return x;
+//}
 
+//Trò chơi tự tạo 2 :))
+void *Xuat();
+void main()
+{
+	cout << Xuat();
+	_getch();
+}
+void *Xuat()
+{
+	int *x;
+	int a = 7;
+	x = &a;
+	*x = *x * 7;
+	return x; // lúc nào cũng phải return dù nó là void
 }

@@ -29,7 +29,7 @@ void main()
 //}
 void XuatMang(int *a, int &n)
 {
-	cout << "Thuat toan sap xep - Selection Sort: ";
+	cout << "Thuat toan sap xep - Bubble Sort: ";
 	cout << endl << "Xuat:";
 	for (int i = 0; i < n; i++)
 		cout << a[i] << " ";

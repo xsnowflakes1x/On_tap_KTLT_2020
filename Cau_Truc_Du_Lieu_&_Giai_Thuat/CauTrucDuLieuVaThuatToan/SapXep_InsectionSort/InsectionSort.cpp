@@ -57,3 +57,18 @@ void swap(int &a, int &b)
 	a = b;
 	b = temp;
 }
+void InsectionSort(int *a, int n) 
+{
+	int pos, i;
+	for (i = 1; i < n; i++)
+	{
+		pos = i - 1;
+		int x = a[i];
+		while (pos >= 0 && a[pos] > x)
+		{
+			a[pos + 1] = a[pos];
+			pos--;
+		}
+		a[pos + 1] = x;
+	}
+}
