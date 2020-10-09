@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CauTruc_Stack_Queue.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Stack_Queue.cpp
+d:\web developer_important\ôn tập 2020\source-code\cau_truc_du_lieu_&_giai_thuat\cautrucdulieuvathuattoan\cautruc_stack_queue\stack_queue.cpp(118): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\web developer_important\ôn tập 2020\source-code\cau_truc_du_lieu_&_giai_thuat\cautrucdulieuvathuattoan\cautruc_stack_queue\stack_queue.cpp(120): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CauTruc_Stack_Queue.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Cau_Truc_Du_Lieu_&_Giai_Thuat\CauTrucDuLieuVaThuatToan\Debug\Stack_Queue_Mang_1_Chieu.exe
+  CauTruc_Stack_Queue.vcxproj -> D:\Web developer_important\ÔN TẬP 2020\SOURCE-CODE\Cau_Truc_Du_Lieu_&_Giai_Thuat\CauTrucDuLieuVaThuatToan\Debug\Stack_Queue_Mang_1_Chieu.pdb (Partial PDB)
